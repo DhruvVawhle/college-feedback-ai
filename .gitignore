@@ -1,0 +1,19 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Virtual environments
+venv/
+.venv/
+env/
+
